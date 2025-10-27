@@ -1,0 +1,63 @@
+# ==========================================
+# CMake build artifacts
+# ==========================================
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ==========================================
+# Compiled binaries and object files
+# ==========================================
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# ==========================================
+# CUDA intermediate files
+# ==========================================
+*.ptx
+*.cubin
+*.fatbin
+*.nvvp
+
+# ==========================================
+# IDE / Editor files
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# OS / Temporary files
+# ==========================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Optional test / output directories
+# ==========================================
+output/
+bin/
+obj/
+build/
+results.csv
+tools/
