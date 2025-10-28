@@ -40,7 +40,7 @@ fi
 
 # 4) Build artifacts
 section "4/7" "Checking build artifacts…"
-BIN="build/vector_add"
+BIN="build/thrust_intro"
 if [ -d build ]; then
   echo "✅ build/ directory found."
 else
@@ -94,7 +94,7 @@ else
 fi
 
 # 6) Quick functional test
-section "6/7" "Functional test (run vector_add)…"
+section "6/7" "Functional test (run thrust_intro)…"
 if [ -x "$BIN" ]; then
   "$BIN"
 else

@@ -38,15 +38,15 @@ include(CTest)         # safe even if BUILD_TESTING is off; defines BUILD_TESTIN
 if (BUILD_TESTING)
   enable_testing()
   # Run the program; test passes if exit code == 0
-  add_test(NAME vector_add_run COMMAND vector_add)
+  add_test(NAME thrust_intro COMMAND thrust_intro)
 
   # (Optional) Fail if output doesn't contain "OK"
-  set_tests_properties(vector_add_run
+  set_tests_properties(thrust_intro_run
     PROPERTIES
       PASS_REGULAR_EXPRESSION "OK|Success|Passed"  # adjust to your program's output
       TIMEOUT 10
   )
 
   # (Optional) pick a GPU if you have multiple
-  # set_tests_properties(vector_add_run PROPERTIES ENVIRONMENT "CUDA_VISIBLE_DEVICES=0")
+  # set_tests_properties(thrust_intro_run PROPERTIES ENVIRONMENT "CUDA_VISIBLE_DEVICES=0")
 endif()
