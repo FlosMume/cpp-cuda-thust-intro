@@ -1,4 +1,4 @@
-# 🧩 C++ CUDA Starter (Windows + WSL2)
+# 🧩 C++ CUDA Thrust (Windows + WSL2)
 
 A minimal, production-ready CUDA C++ starter project for learning and testing GPU kernels in **Windows + WSL2** environments.  
 Designed for reproducible builds, clean debugging, and automated testing.
